@@ -1,0 +1,631 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width:600){
+    .box{
+        
+        float: left;
+        width: 100%;
+    }
+    .box2{
+      float: none;
+      width: 100%;
+      background-color: yellow;
+
+    }
+
+    
+}
+.box{
+    /* border: 2px solid ; */
+    /* height: 100px; */
+    width: 100%;
+    float: left;
+    background-color: green;
+
+}
+.box2{
+    /* border: 2px solid ; */
+    float: left;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.box1{
+    /* border: 2px solid; */
+    height: 100px;
+    width: 100%;
+}
+
+/* li,a{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+    line-height: 80px;
+    color: black;
+} */
+.nav{
+    /* border: 2px solid; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.head1 ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 15px;
+   
+}
+.head1 ul li {
+    padding: 0px 50px;
+    position: relative;
+}
+.head1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.head1 ul li a:hover{
+    /* color: wheat; */
+    /* background-color: yellow; */
+    border-radius: 5px;
+    /* height: 100px; */
+ }
+.dropdpt{
+    display: none;
+}
+.head1 ul li:hover.dropdpt{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    color: black;
+
+}
+.dropdpt ul{
+     display: block;
+    margin: 10px;
+}
+.dropdpt ul li{
+
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+}
+.dropdpt ul li a:hover{
+    background-color: aqua;
+} 
+
+
+
+
+
+
+/* .sub-menu1{
+    display: none;
+}
+.head1 ul li:hover .sub-menu{
+    display:block ;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+} */
+.big{
+    /* height: 400px; */
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.head{
+    width: 20%;
+    float: left;
+}
+.head1{
+    width: 70%;
+    float: left;
+}
+button{
+    height: 35px;
+    width: 100px;
+    margin-top: 25px;
+    color: white;
+    background-color: green;
+   
+
+}
+img{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+iframe{
+    float: left;
+    width: 33.3%;
+}
+.big{
+    border: 2px solid black;
+    width: 100%;
+    height: 600px;
+}
+.bond,h3{
+    margin-top: 20px;
+    margin-left: 400px;
+    font-size: 2rem;
+   
+}
+span{
+    color: green;
+
+}
+.item{
+    /* border: 2px solid ; */
+    width: 100%;
+    height: 500px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    
+}
+.item2{
+    /* border: 2px solid ; */
+    width: 40%;
+    float: left;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 100px;
+    
+    
+    
+}
+.item3{
+    /* border: 2px solid ; */
+    width: 40%;
+    float: left;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 100PX;
+}
+p{
+    text-align: justify;
+}
+.happy,h3{
+    text-align: start;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 50px;
+ 
+}
+.boxx{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+.box5{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 18%;
+    float: left;
+    margin-left: 30px;
+}
+a:hover{
+    color: red;
+}
+.five{
+    margin-left: 0px;
+    margin-top: 0px;
+     height: 198px;
+     width: 270px;
+    
+}
+.full{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-top: 100px;
+    background-color: rgb(252, 242, 242);
+}
+h3{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 2rem;
+}
+.disco{
+    /* border: 2px solid black; */
+    height: 550px;
+    width: 100%;
+    margin-top: 80PX;
+}
+.discover{
+    margin-left: 50px;
+}
+.flat{
+    overflow: hidden;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    float: left;
+    height: 300px;
+    width: 30%
+    
+    
+    
+}
+.ghar{
+    
+    bottom: 10px;
+    left: 20px;
+    height: 300px;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.ghar:hover{
+    transform: scale(1.1);
+}
+.amount{
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 400px;
+    margin-top: -100px;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    
+    
+}
+.shop{
+    /* border: 2px solid red; */
+    height: 1200px;
+    width: 100%;
+}
+.mini1{
+    /* border: 2px solid black; */
+    float: left;
+    width: 50%;
+    height: 1200px;
+    background-color: rgb(246, 223, 193);
+
+}
+.mini2{
+    /* border: 2px solid black; */
+    float: left;
+    width: 50%;
+    height: 1200px;
+
+}
+.ladki{
+    height:1200px ;
+    width:770px ;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.ghar:hover{
+    transform: scale(1.1) rotate(-1deg);
+    
+
+}
+h1{
+    margin-left: 50px;
+}
+.fake1{
+    /* border: 2px solid black; */
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    background-color: rgb(163, 158, 133);
+}
+.cold{
+    margin-left: 50px;
+    
+ 
+    
+    height: 100px;
+    /* width: 200px; */
+    border-radius: 500px;
+    font-size: 3rem;
+    background-color: rgb(196, 227, 165);
+
+}
+.pro{
+    margin-left: 10px;
+    
+    
+}
+.effi{
+    margin-left: 160px;
+    margin-top: -25px;
+}
+.cold:hover{
+    background-color: rgb(232, 232, 152);
+}
+.trust{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.partner{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 100%;
+    
+}
+.boi{
+    /* border: 2px solid black; */
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+.ara{
+    margin-top: 0px;
+    margin-left: 0px;
+    height:200px ;
+    width: 250px;
+}
+.bada{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 880px;
+    margin-top: 40px;
+    position: relative;
+
+}
+.date{
+    /* border: 2px solid black; */
+    float: left;
+    width: 30%;
+    height: 350px;
+    margin-left: 35px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    
+    
+}
+.date1{
+    /* border: 2px solid black; */
+    float: left;
+    width: 30%;
+    height: 350px;
+    margin-left: 35px;
+    margin-top: 80px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    
+    
+}
+.paro{
+    height: 350px;
+    width: 450px;
+    margin-top: 0px;
+   margin-left: 0px;
+   border-radius: 10px;
+}
+.data{
+    position: absolute;
+    left: 380px;
+    top: 290px;
+    height: 80px;
+    width: 70px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.nich{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+.data1{
+    position: absolute;
+    left: 380px;
+    top: 720px;
+    height: 80px;
+    width: 70px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.data2{
+    position: absolute;
+    left: 870px;
+    top: 290px;
+    height: 80px;
+    width: 70px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.data3{
+    position: absolute;
+    left: 1360px;
+    top: 290px;
+    height: 80px;
+    width: 70px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.data4{
+    position: absolute;
+    left: 870px;
+    top: 720px;
+    height: 80px;
+    width: 70px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.paro:hover{
+    transform: scale(1.1) 
+    
+}
+.newb{
+   margin-left: -680px;
+   /* margin-top: 50px; */
+}
+.flate{
+    line-height: 50px;
+}
+h1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.find{
+    margin-left: 50px;
+}
+.green{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+}
+.gre{
+    border: 2px solid black;
+    height: 350px;
+    width: 35%;
+    background-color: rgb(88, 193, 88);
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+.gre1{
+    border: 1px solid white;
+    height: 310px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 15px;
+   
+}
+.gre2{
+    /* border: 2px solid black; */
+    float: left;
+    height: 350px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.gre5{
+    border: 2px solid rgb(4, 61, 24);
+    height: 60px;
+    width: 90%;
+    margin-top: 9px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.can{
+font-size: 1rem;
+margin-left: 15px;
+line-height: 60px;
+}
+.plus{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 610px;
+    margin-top: -51px;
+
+}
+#add{
+    color: white;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+.dream{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 230px;
+    background-color: #F2F9F5;
+}
+.real{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.baja{
+    height: 50px;
+    width: 180px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 16PX;
+}
+.sandy{
+    /* border: 2px solid red; */
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: #FFFFFF;
+}
+.kro{
+    /* border: 2px solid black; */
+    float: left;
+    width: 32%;
+    height: 400px;
+    margin-top: 5px;
+}
+.footer{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    height: 200px;
+   
+}
+.last{
+    /* border: 2px solid black; */
+    float: left;
+    width: 50%;
+    height: 100px;
+    display: flex;
+}
+.dil{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.Reserved{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.mari:hover{
+    text-decoration: underline;
+}
+
+
+
+
+    
+
+
+
+
+
+   
+    
+
+    
+
+ 
